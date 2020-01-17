@@ -912,7 +912,7 @@
     "@types/webpack-dev-middleware" "^2.0.3"
     "@types/webpack-hot-middleware" "^2.25.0"
 
-"@nuxt/typescript-build@^0.5.1":
+"@nuxt/typescript-build@0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@nuxt/typescript-build/-/typescript-build-0.5.1.tgz#5ceb4031175bc2c2ded0a962a0fc88f9b08728cb"
   integrity sha512-Aw/W5NWdnfqlNt4xcTHODOvIDzfANVCTDMyvoJBKwP59l8H8n9e5D5w+nlVDdDMiTr3V4A7Udh2NQje7YmKz9A==
@@ -923,7 +923,7 @@
     ts-loader "^6.2.1"
     typescript "~3.7"
 
-"@nuxt/typescript-runtime@^0.3.2":
+"@nuxt/typescript-runtime@0.3.2":
   version "0.3.2"
   resolved "https://registry.yarnpkg.com/@nuxt/typescript-runtime/-/typescript-runtime-0.3.2.tgz#a4594c048383795e6ff5fad2e08eace5816367ea"
   integrity sha512-aivipsgSQjWs0eKiKbDsdT3Vbi9+Bma9sj55ktekZbD4RQl55eXIcPszZ87S6IIbShORGBxmVGlQArytYEtBKQ==
@@ -5014,7 +5014,7 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-typed-vuex@^0.1.15:
+nuxt-typed-vuex@0.1.15:
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/nuxt-typed-vuex/-/nuxt-typed-vuex-0.1.15.tgz#61b3600852980eeb11868a8d53dd06f218f8f8ad"
   integrity sha512-S4A3S4Nq6qiBTZQWRcetfdeM0jy7DcL0f+BurOUEbW776ZJq6B/i9UUXF2LgwXAgVqmDWUi+x4VvfNDSdXoMoA==
@@ -5023,7 +5023,7 @@ nuxt-typed-vuex@^0.1.15:
     normalize-path "^3.0.0"
     typed-vuex "0.1.15"
 
-nuxt@^2.11.0:
+nuxt@2.11.0:
   version "2.11.0"
   resolved "https://registry.yarnpkg.com/nuxt/-/nuxt-2.11.0.tgz#654664fe1a95af2014fd55c38ba2c732bfa5edc5"
   integrity sha512-Y7lastjYWIOppja0FaWozPfkvlmJ8uZSqWx0VbK7l5djbHls5jgUGag0iu6GsNNwCFTKpoAtptNHiWOsyMxStA==
@@ -7417,7 +7417,7 @@ vue-no-ssr@^1.1.1:
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
 
-vue-property-decorator@^8.3.0:
+vue-property-decorator@8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/vue-property-decorator/-/vue-property-decorator-8.3.0.tgz#536f027dc7d626f37c8d85a2dc02f0a6cb979440"
   integrity sha512-77YtTbZHd5CNiPzbqv51kEgL48yvD2dUDfF28vEyw3MbQ9bBAb/tDyFzskcqjNRbWyXk1vq4oM2CK/LfhxuIBg==
