@@ -912,6 +912,30 @@
     "@types/webpack-dev-middleware" "^2.0.3"
     "@types/webpack-hot-middleware" "^2.25.0"
 
+"@nuxt/types@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/types/-/types-0.6.1.tgz#f94601630367ba790e6ca320c30406a4e253599d"
+  integrity sha512-9qOjHgLfUSZOicDXbAh/jg9dSFDdE4MVVSQdMTtmwEpGUKLqawrUwkypRtn8jDcvAtf0EADo/1VunpuN5j7jTg==
+  dependencies:
+    "@types/autoprefixer" "^9.6.1"
+    "@types/babel__core" "^7.1.3"
+    "@types/compression" "^1.0.1"
+    "@types/connect" "^3.4.33"
+    "@types/etag" "^1.8.0"
+    "@types/file-loader" "^4.2.0"
+    "@types/html-minifier" "^3.5.3"
+    "@types/less" "^3.0.1"
+    "@types/node" "^12.12.24"
+    "@types/node-sass" "^4.11.0"
+    "@types/optimize-css-assets-webpack-plugin" "^5.0.1"
+    "@types/pug" "^2.0.4"
+    "@types/serve-static" "^1.13.3"
+    "@types/terser-webpack-plugin" "^2.2.0"
+    "@types/webpack" "^4.41.2"
+    "@types/webpack-bundle-analyzer" "^2.13.3"
+    "@types/webpack-dev-middleware" "^2.0.3"
+    "@types/webpack-hot-middleware" "^2.25.0"
+
 "@nuxt/typescript-build@0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@nuxt/typescript-build/-/typescript-build-0.5.1.tgz#5ceb4031175bc2c2ded0a962a0fc88f9b08728cb"
@@ -923,13 +947,13 @@
     ts-loader "^6.2.1"
     typescript "~3.7"
 
-"@nuxt/typescript-runtime@0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@nuxt/typescript-runtime/-/typescript-runtime-0.3.2.tgz#a4594c048383795e6ff5fad2e08eace5816367ea"
-  integrity sha512-aivipsgSQjWs0eKiKbDsdT3Vbi9+Bma9sj55ktekZbD4RQl55eXIcPszZ87S6IIbShORGBxmVGlQArytYEtBKQ==
+"@nuxt/typescript-runtime@0.3.8":
+  version "0.3.8"
+  resolved "https://registry.yarnpkg.com/@nuxt/typescript-runtime/-/typescript-runtime-0.3.8.tgz#828005478d1876376fd10a512326d0ec307959eb"
+  integrity sha512-JLdZky+lXPnKW7UaVcHnygyEdY9QasCTviozWj9XkbIJdCZ+HmNC88Mp7dV7acoP1E96bMHjlzzci85Od0kcjQ==
   dependencies:
-    "@nuxt/types" "0.5.6"
-    ts-node "^8.5.4"
+    "@nuxt/types" "0.6.1"
+    ts-node "^8.6.2"
     typescript "~3.7"
 
 "@nuxt/utils@2.11.0":
@@ -1116,6 +1140,13 @@
   dependencies:
     "@types/node" "*"
 
+"@types/connect@^3.4.33":
+  version "3.4.33"
+  resolved "https://registry.yarnpkg.com/@types/connect/-/connect-3.4.33.tgz#31610c901eca573b8713c3330abc6e6b9f588546"
+  integrity sha512-2+FrkXY4zllzTNfJth7jOqEHC+enpLeGslEhpnTAkg21GkRrWV4SsAtqchtT4YS9/nODBU2/ZfsBY2X4J/dX7A==
+  dependencies:
+    "@types/node" "*"
+
 "@types/etag@^1.8.0":
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/@types/etag/-/etag-1.8.0.tgz#37f0b1f3ea46da7ae319bbedb607e375b4c99f7e"
@@ -1189,6 +1220,11 @@
   version "12.12.20"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.20.tgz#7b693038ce661fe57a7ffa4679440b5e7c5e8b99"
   integrity sha512-VAe+DiwpnC/g448uN+/3gRl4th0BTdrR9gSLIOHA+SUQskaYZQDOHG7xmjiE7JUhjbXnbXytf6Ih+/pA6CtMFQ==
+
+"@types/node@^12.12.24":
+  version "12.12.25"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.25.tgz#792c0afb798f1dd681dce9c4b4c431f7245a0a42"
+  integrity sha512-nf1LMGZvgFX186geVZR1xMZKKblJiRfiASTHw85zED2kI1yDKHDwTKMdkaCbTlXoRKlGKaDfYywt+V0As30q3w==
 
 "@types/optimize-css-assets-webpack-plugin@^5.0.1":
   version "5.0.1"
@@ -1300,6 +1336,18 @@
   version "4.41.0"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.0.tgz#b813a044d8b0dec7dfcd7622fdbe327bde06eb9a"
   integrity sha512-tWkdf9nO0zFgAY/EumUKwrDUhraHKDqCPhwfFR/R8l0qnPdgb9le0Gzhvb7uzVpouuDGBgiE//ZdY+5jcZy2TA==
+  dependencies:
+    "@types/anymatch" "*"
+    "@types/node" "*"
+    "@types/tapable" "*"
+    "@types/uglify-js" "*"
+    "@types/webpack-sources" "*"
+    source-map "^0.6.0"
+
+"@types/webpack@^4.41.2":
+  version "4.41.2"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-4.41.2.tgz#c6faf0111de27afdffe1158dac559e447c273516"
+  integrity sha512-DNMQOfEvwzWRRyp6Wy9QVCgJ3gkelZsuBE2KUD318dg95s9DKGiT5CszmmV58hq8jk89I9NClre48AEy1MWAJA==
   dependencies:
     "@types/anymatch" "*"
     "@types/node" "*"
@@ -7116,16 +7164,16 @@ ts-loader@^6.2.1:
     micromatch "^4.0.0"
     semver "^6.0.0"
 
-ts-node@^8.5.4:
-  version "8.5.4"
-  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.5.4.tgz#a152add11fa19c221d0b48962c210cf467262ab2"
-  integrity sha512-izbVCRV68EasEPQ8MSIGBNK9dc/4sYJJKYA+IarMQct1RtEot6Xp0bXuClsbUSnKpg50ho+aOAx8en5c+y4OFw==
+ts-node@^8.6.2:
+  version "8.6.2"
+  resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.6.2.tgz#7419a01391a818fbafa6f826a33c1a13e9464e35"
+  integrity sha512-4mZEbofxGqLL2RImpe3zMJukvEvcO1XP8bj8ozBPySdCUXEcU5cIRwR0aM3R+VoZq7iXc8N86NC0FspGRqP4gg==
   dependencies:
     arg "^4.1.0"
     diff "^4.0.1"
     make-error "^1.1.1"
     source-map-support "^0.5.6"
-    yn "^3.0.0"
+    yn "3.1.1"
 
 tslib@^1.9.0:
   version "1.10.0"
@@ -7714,7 +7762,7 @@ yallist@^4.0.0:
   resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yn@^3.0.0:
+yn@3.1.1:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/yn/-/yn-3.1.1.tgz#1e87401a09d767c1d5eab26a6e4c185182d2eb50"
   integrity sha512-Ux4ygGWsu2c7isFWe8Yu1YluJmqVhxqK2cLXNQA5AcC3QfbGNpM7fu0Y8b/z16pXLnFxZYvWhd3fhBY9DLmC6Q==
