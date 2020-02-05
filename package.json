@@ -17,6 +17,6 @@
     "@nuxt/typescript-build": "0.5.1",
     "@nuxt/typescript-runtime": "0.3.2",
     "nuxt-typed-vuex": "0.1.15",
-    "vue-property-decorator": "8.3.0"
+    "vue-property-decorator": "8.4.0"
   }
 }
