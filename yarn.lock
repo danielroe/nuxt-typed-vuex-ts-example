@@ -5014,14 +5014,14 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nuxt-typed-vuex@0.1.15:
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/nuxt-typed-vuex/-/nuxt-typed-vuex-0.1.15.tgz#61b3600852980eeb11868a8d53dd06f218f8f8ad"
-  integrity sha512-S4A3S4Nq6qiBTZQWRcetfdeM0jy7DcL0f+BurOUEbW776ZJq6B/i9UUXF2LgwXAgVqmDWUi+x4VvfNDSdXoMoA==
+nuxt-typed-vuex@0.1.16:
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/nuxt-typed-vuex/-/nuxt-typed-vuex-0.1.16.tgz#4ec0e7a65bb51459dddb45ec307ac8ff35c5ce23"
+  integrity sha512-Ino19mjj07z+iB4pCUI44e086Y4C6NTsrGpupBiGVeMRv1ycbt16uE/aNEwvKaKa/NUq7pWvNe7lQ4tLrjt0eQ==
   dependencies:
     "@nuxt/types" ">=0.3.0"
     normalize-path "^3.0.0"
-    typed-vuex "0.1.15"
+    typed-vuex "0.1.16"
 
 nuxt@2.11.0:
   version "2.11.0"
@@ -7155,10 +7155,10 @@ type-is@~1.6.17, type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typed-vuex@0.1.15:
-  version "0.1.15"
-  resolved "https://registry.yarnpkg.com/typed-vuex/-/typed-vuex-0.1.15.tgz#8f4f52e82bcbb50f29190b2593123d91d049d0a5"
-  integrity sha512-CcdtSba/3tBQL3XqTeBmyKfstp/QlQtGVEhwB4oqevZpigcNDg/PRBUY1DxhQAjO52QaLqx8xxQXUKzDe9yeTw==
+typed-vuex@0.1.16:
+  version "0.1.16"
+  resolved "https://registry.yarnpkg.com/typed-vuex/-/typed-vuex-0.1.16.tgz#7b11c4ebda8b895f0af21b74a128d1a37b733f4e"
+  integrity sha512-C85/RmJPumbXwVW1+dcA0S2jwK3c1WPhr/z8Bp+csEM6nh3WOiLLtvIhiHeWqP0wMx0Ff1Sb1ZZNAW+a2aUuvQ==
   dependencies:
     vuex "^3.0.0"
 
