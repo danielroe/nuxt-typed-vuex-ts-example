@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@nuxt/typescript-build": "0.6.1",
-    "@nuxt/typescript-runtime": "0.4.0",
+    "@nuxt/typescript-runtime": "0.4.1",
     "nuxt-typed-vuex": "0.1.17",
     "vue-property-decorator": "8.4.1"
   }
